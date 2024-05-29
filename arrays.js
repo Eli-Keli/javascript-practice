@@ -162,3 +162,43 @@ function findMax(arr) {
 
 let numArr = [5, 12, 7, 9, 4];
 console.log(`Max Number: ${findMax(numArr)}`)
+
+/*
+### Exercise 3: Remove Duplicates
+
+- Write a function **`removeDuplicates(arr)`** that takes an array as input and returns a new array with duplicate elements removed.
+*/
+
+console.log('\nExercise 3: Remove Duplicates\n')
+
+function removeDuplicates(arr) {
+    let commonArray = [];
+    arr.map((element) => {
+        if (!commonArray.includes(element)) {
+            commonArray.push(element);
+        }
+    })
+    return commonArray;
+}
+
+let dupArray = ['Kevin', 'Man', 'Man', 3, 3, 6, 6];
+console.log(`Removed Duplicates: ${removeDuplicates(dupArray)}`)
+
+
+/*
+### Exercise 7: Sum of Squares
+
+- Write a function **`sumOfSquares(arr)`** that takes an array of numbers as input and returns the sum of the squares of each number.
+*/
+
+console.log('\nExercise 7: Sum of Squares\n')
+
+function sumOfSquares(arr) {
+    let squaredArr = arr.map((num) => num*num);
+    let sumOfSquares = squaredArr.reduce((sum, total) => sum + total, 0)
+    return sumOfSquares;
+}
+
+let squareArr = [3, 4, 5, 6, 7];
+console.log(`Sum of Squares: ${sumOfSquares(squareArr)}`)
+
