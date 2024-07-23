@@ -6,7 +6,7 @@ When you are fetching data from the API, it’s important to understand the HTTP
     - The language of the web: Think of HTTP as the language your browser and web servers use to talk to each other. It defines a set of rules for exchanging data like text, images, videos, and other files across the web.
     - Client-Server model: HTTP follows a request-response pattern:
     - Client (your browser) sends a request to a server for a resource (e.g., an HTML page, an image).
-    - Server processes the request and sends back a response.
+    - Server processes the request and sends back a response
 When fetching data from APIs in JavaScript, it’s essential to understand that this process is asynchronous. The Fetch API is a modern approach to retrieve data from a server asynchronously. It offers a promise-based interface, which is more intuitive and easier to manage compared to traditional callback methods.
 
 ? 1. Request Methods
