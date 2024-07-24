@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#quote-container {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#quote-list {
+    max-width: 700px;
+    list-style: none;
+    padding: 0;
+}
+
+#quote-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+#quote-list li button {
+    float: right;
+    background-color: transparent;
+    color: #f00;
+    border: none;
+    cursor: pointer;
+}
