@@ -16,6 +16,12 @@ function About() {
                     Increment
                 </button>
                 <button
+                    onClick={useStore((state) => state.reset)}
+                    className='bg-gray-400 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded'
+                >
+                    Reset
+                </button>
+                <button
                     onClick={useStore((state) => state.decrement)}
                     className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded'
                 >
