@@ -1,16 +1,12 @@
 import './App.css'
-import ControlledForm from './components/ControlledForm'
-import UncontrolledForm from './components/UncontrolledForm'
+import CustomHookForm from './components/CustomHookForm'
 
 function App() {
 
   return (
     <>
-      <h1>Controlled vs. Uncontrolled Components</h1>
-      <h2>Controlled</h2>
-      <ControlledForm />
-      <h2>Uncontrolled</h2>
-      <UncontrolledForm />
+      <h1>Custom Form Hooks</h1>
+      <CustomHookForm />
     </>
   )
 }
