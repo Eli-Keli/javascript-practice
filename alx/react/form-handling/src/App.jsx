@@ -1,12 +1,16 @@
 import './App.css'
-import CustomHookForm from './components/CustomHookForm'
+import FormikForm from './components/FormikForm'
+import ReactHookForm from './components/ReactHookForm'
 
 function App() {
 
   return (
     <>
-      <h1>Custom Form Hooks</h1>
-      <CustomHookForm />
+      <h1>Form Libraries: Formik and React Hook Form</h1>
+      <h2>Formik Form</h2>
+      <FormikForm />
+      <h2>React Hook Form</h2>
+      <ReactHookForm />
     </>
   )
 }
